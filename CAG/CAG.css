@@ -1,0 +1,56 @@
+.imagesCAG{
+    display: inline-block;
+    border: 5px;
+    margin: 20px 350px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    background-color: black;
+    color: white;
+}
+
+.imagesCAG .description{
+    padding: 10px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+.descriptiontag{
+    box-sizing: content-box;
+    border-radius: 5px;
+    border-color:silver;
+    border-style: solid;
+    background-color:white;
+    text-align: left;
+    margin: 1rem 10em;
+    font-family:arial;
+    font-style:italic;
+    color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+#containerB{
+    min-height: 100%;
+}
+
+#mainB{
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+#footer{
+    background-color: hsl(0, 4%, 22%);
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+}

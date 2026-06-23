@@ -1,0 +1,11 @@
+// instruction to put map bsp into garry's mod
+
+// step #1 = 
+go to [steam] put [garry' mod right-click] go to [properties] from dare to [installed files] put
+[Browse] from dare the folder [garrysmod] ---> the [maps folder] put the download [zip folder] into the map folder & extract all that bsp is supposed to be inside the map folder.
+
+// step #2 =
+go launch garry's mod put start new game is supposed to be in the sandbox category.
+
+// step #3 =
+enjoy my content 😏

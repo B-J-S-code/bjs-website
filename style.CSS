@@ -1,0 +1,291 @@
+.BJStitle{
+    border-style: solid;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: 70;
+    font-family: 'Franklin Gothic Medium';
+    margin: 2em 10em;
+    height: 40;
+    width: 300px;
+    color: hsl(0, 100%, 100%);
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+    animation-name: slideUp;
+    animation-duration: 1s;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 4%, 22%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: hsl(32, 100%, 50%);
+}
+
+.navbar li{
+    float: left;
+}
+
+.titlecontact{
+    border-style: solid;
+    margin: 1em 8em;
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 40px;
+    animation-name: slideUp;
+    animation-duration: 1s;
+}
+
+.contextCtact{
+    background-color: white;
+    border-color: gray;
+    border-style: ridge;
+    border-radius: 5px;
+    padding: 15px;
+    animation-name: slideLeft;
+    animation-duration: 1s;
+}
+
+.abouttitle{
+    font-family:'Segoe UI';
+    background-color: azure;
+    border-radius: 5px;
+    border-style: dotted;
+    border-color: gold;
+    text-align: center;
+    margin: 2em 27%;
+    animation-name: slideUp;
+    animation-duration: 1s;
+}
+
+.abouttext{
+   font-family:'Trebuchet MS';
+   background-color: white;
+   border-radius: 5px;
+   border-color: hsl(0, 0%, 30%);
+   border-style: solid;
+   animation-duration: 1s;
+   animation-name: slideLeft;
+}
+
+#Weltag{
+    color: rgb(207, 207, 207);
+    text-align: center;
+    margin: 1em 12em;
+    background-color: white;
+    border-radius: 5px;
+    border-style:solid;
+    border-color: black;
+}
+
+.Weltexts{
+    background-color: white;
+    border-radius: 5px;
+    border-color: lightgrey;
+    border-style: outset;
+    animation-name: slideRight;
+    animation-duration: 1s;
+    font-size: 30px;
+    font-weight: 10;
+    margin: 1em 8em;
+    font-family:'Arial Narrow';
+    text-align: center;
+    padding: 30px;
+    height: 50px;
+}
+
+.contenttitle{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: hsl(0, 0%, 100%);
+    background-color: gold;
+    text-align: center;
+    border-radius: 5px;
+    border-color: gold;
+    border-style: inset;
+    margin: 1em 23em;
+    animation-name: slideUp;
+    animation-duration: 1s;
+}
+
+.contenttext{
+    font-family:'Courier New', Courier, monospace;
+    background-color: white;
+    animation-duration: 1s;
+    animation-name: slideLeft;
+    border-radius: 5px;
+    border-color: black;
+    border-style: double;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.gmail{
+    text-align: center;
+    background-color: white;
+    border-radius: 6px;
+    border-style: outset;
+    border-color: rgb(99, 98, 98);
+    margin: 2em 20em;
+    animation-duration: 1s;
+    animation-name: slideRight;
+}
+
+.MB{
+    background-color: gray;
+    border-color: silver;
+    color: white;
+    border-radius: 10px;
+    border-style:inset ;
+    margin: 2% 19em;
+}
+
+.e-type{
+    margin: 2% 2%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 20px;
+}
+
+
+.textbox{
+    border-radius: 10px;
+    border-color: orange;
+    border-style: solid;
+    font-family:fantasy;
+    margin: 2%;
+    width: 76%;
+}
+
+.visitcounter{
+    height: 100px;
+    width: 27%;
+    margin: 10px 490px;
+    background-color: black;
+    border: 9 ;
+    border-radius: 5px;
+    animation-duration: 1s;
+    animation-name: slideLeft;
+}
+
+.weltosector{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    border-style: double;
+    margin: 9px 430px;
+    animation-duration: 1s;
+    animation-name: slideUp;
+}
+
+
+.images{
+    display: inline-block;
+    border: 5px;
+    margin: 50px 110px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    background-color: black;
+    color: white;
+    animation-duration: 1s;
+    animation-name: slideRight;
+}
+
+.images .description{
+    padding: 10px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.images:hover{
+    border-color: rgb(126, 123, 123);
+}
+
+.donatetitle{
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: gray;
+  border-radius: 10px;
+  border-color: orange;
+  border-style: outset;
+  font-weight:200;
+  text-align: center;
+  height: 50px;
+  padding: 10px;
+  margin: 30px 354px;
+  animation-duration: 1s;
+  animation-name: slideUp;
+}
+
+.disdonate{
+    color: white;
+    background-color: grey;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: orange;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    animation-duration: 1s;
+    animation-name: slideRight;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+#containerB{
+    min-height: 100%;
+}
+
+#mainB{
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+#footer{
+    background-color: hsl(0, 4%, 22%);
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+}
+
+@keyframes slideLeft{
+    from{transform: translateX(-300%)}
+}
+
+@keyframes slideUp{
+    from{transform: translateY(-900px);}
+}
+
+@keyframes slideRight{
+    from{transform: translateX(1200px);}
+}

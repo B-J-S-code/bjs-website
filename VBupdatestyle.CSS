@@ -1,0 +1,173 @@
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 4%, 22%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: hsl(32, 100%, 50%);
+}
+
+.navbar li{
+    float: left;
+}
+
+.dropdown button{
+    background-color: white;
+    color: orange;
+    border-color:gray;
+    border-radius: 5px;
+    border-style: groove;
+    padding: 10px 14px;
+    cursor: pointer;
+    min-width: 100px;
+    margin: 10px;
+    animation-name: slideLeft;
+    animation-duration: 1s;
+}
+
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown button:hover{
+    background-color: grey;
+    border-color: white;
+}
+
+.dropdown .Update{
+    display: none;
+    position: absolute;
+    background-color: grey;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.dropdown:hover .Update{
+    display: block;
+}
+
+.dropdown a:hover{
+    background-color: hsl(0, 0%, 90%);
+    color: blue;
+}
+
+.dropdown{
+    display: inline-block;
+}
+
+.Rtext{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border-style:double;
+    border-radius: 10px;
+    border-color: black;
+    text-size-adjust: initial;
+    padding: 8px;
+    font-size: 20px;
+    margin: 1cm 9cm;
+    padding: 99px;
+    animation-name: slideRight;
+    animation-duration: 1s;
+}
+
+.justext{
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    border-style: groove;
+    margin: 2em 10em;
+    padding: 10px;
+    text-align: left;
+    font-size: large;
+
+}
+
+.WelcomeVBU{
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    border-style: dotted;
+    text-align: center;
+    margin: 5px 400px;
+        animation-name: slideUp;
+    animation-duration: 1s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+#containerB{
+    min-height: 100%;
+}
+
+#mainB{
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+#footer{
+    background-color: hsl(0, 4%, 22%);
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+}
+
+
+@keyframes slideLeft{
+    from{transform: translateX(-300%)}
+}
+
+@keyframes slideUp{
+    from{transform: translateY(-900px);}
+}
+
+@keyframes slideRight{
+    from{transform: translateX(1200px);}
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+#containerB{
+    min-height: 100%;
+}
+
+#mainB{
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+#footer{
+    background-color: hsl(0, 4%, 22%);
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+}

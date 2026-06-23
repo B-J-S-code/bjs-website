@@ -1,0 +1,70 @@
+.CMtext{
+    background-color: white;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    border-style:double ;
+    margin: 10px 644px;
+    height: 199px;
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+}
+
+.gifimg{
+    margin: 1px 199px;
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: dashed;
+}
+
+.DB{
+    bottom: 4cm;
+    margin: 233px;
+    position:relative;
+    align-self: end;
+    text-decoration-line: none;
+    font-size: 30px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    text-shadow: 5px;
+    border-style:solid;
+    border-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px ;
+}
+
+.DB:hover{
+    border-color: rgb(134, 129, 129);
+    background-color: hsl(0, 0%, 81%);
+    color: rgb(134, 129, 129);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+#containerB{
+    min-height: 100%;
+}
+
+#mainB{
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+#footer{
+    background-color: hsl(0, 4%, 22%);
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+}
